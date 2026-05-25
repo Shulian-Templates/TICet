@@ -1,0 +1,10 @@
+[
+  { "id": "sabrina", "nombre": "Sabrina Carpenter", "img": "img/sabrina.jpeg" },
+  { "id": "kgatlw", "nombre": "King Gizzard and the Lizard Wizard", "img": "img/kgatlw.jpeg" },
+  { "id": "lali", "nombre": "Lali", "img": "img/lali.avif" },
+  { "id": "magdalena", "nombre": "Magdalena Bay", "img": "img/magdalena.jpg" },
+  { "id": "viagra", "nombre": "Viagra Boys", "img": "img/viagraboys.png" },
+  { "id": "dillom", "nombre": "Dillom", "img": "img/dillom.webp" },
+  { "id": "marilina", "nombre": "Marilina Bertoldi", "img": "img/marilina.webp" },
+  { "id": "mugre", "nombre": "Mugre", "img": "img/mugre.jpg" }
+]
