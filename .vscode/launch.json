@@ -4,28 +4,52 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug TypeScript",
+      "name": "Debuggear Consigna Base",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["--import", "tsx"],
+      "runtimeArgs": [
+        "--import",
+        "tsx"
+      ],
       "program": "${workspaceFolder}/src/index.ts",
       "console": "integratedTerminal",
       "sourceMaps": true,
       "env": {
         "NODE_OPTIONS": "--enable-source-maps"
-      }
+      },
+      "skipFiles": [
+        "<node_internals>/**",
+        "**/node_modules/**",
+        "**/src/lib/**",
+        "**/src/frontend/websocket.js",
+        "**/promises.js",
+        "<node_internals>/internal/**"
+      ],
+      "smartStep": true
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug current file",
+      "name": "Debuggear Consigna Manija",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["--import", "tsx"],
-      "program": "${file}",
+      "runtimeArgs": [
+        "--import",
+        "tsx"
+      ],
+      "program": "${workspaceFolder}/src/manija.ts",
       "console": "integratedTerminal",
       "sourceMaps": true,
       "env": {
         "NODE_OPTIONS": "--enable-source-maps"
-      }
+      },
+      "skipFiles": [
+        "<node_internals>/**",
+        "**/node_modules/**",
+        "**/src/lib/**",
+        "**/src/frontend/websocket.js",
+        "**/promises.js",
+        "<node_internals>/internal/**"
+      ],
+      "smartStep": true
     }
   ]
 }
